@@ -15,21 +15,25 @@ a{
 
 
 /*******************nav*************************/
+
 nav{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    height: 12vh;
+    height: 8vh;
     align-items: center;
     position: relative;
     background-color: beige;
-    padding-left: 6%;
-    font-size: 1.5vw;
+    font-size: 0.7rem;
 }
 #navItem{
-    width: 50%;
-    display: flex;
-    justify-content: space-evenly;
+    display: none;
+}
+.fa-solid{
+    padding-right: 40px;
+}
+.navTitle{
+    padding-left: 40px;
 }
 .navLink{
     color: black;
@@ -48,6 +52,7 @@ nav{
     height: auto;
     text-align: center;
     width: 100%;
+    height: auto;
 }
 
 .bannerImg{
@@ -55,7 +60,9 @@ nav{
     width: 100%;
 }
 .bannerTxt{
-    padding-top: 50px;
+    padding-top: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .heading{
     padding-bottom: 15px;
@@ -65,32 +72,58 @@ nav{
 }
 .donate{
     border-radius: 5px;
-    width: 35%;
+    width: 40%;
     height: 30px;
 }
 /********************banner*********************/
 
 
 /*******************features********************/
-
+#feature{
+    margin-top: 50px;
+}
+.featureH1{
+    font-size: 2rem;
+}
 
 /*******************features********************/
+
+
+/*******************donation*******************/
+.donationimage{
+    display: none;
+}
+.donationimagealt{
+    width: 100%;
+}
+#donationsec{
+    position: relative;
+    height: 65vw;
+    color: #fff;
+    text-align: center;
+}
+.donationdivision{
+    padding: 90px 10px 0;
+}
+.donationbutton{
+    border-radius: 5px;
+    background-color: yellow;
+    font-weight: bold;
+    width: 30vw;
+    height: 7vw;
+    margin-top: 10px;
+}
+/*******************donation*******************/
+
 
 
 
 /*******************footer**********************/
 #footer{
-    padding: 12vh 5vh 8vh 5vh;
     background-color: black;
     height: 70vh;
-    position: relative;
-    display: flex;
     color: rgb(209, 209, 209);
     /*align-items: center;*/
-}
-
-.featureH1{
-    font-size: 20px;
 }
 
 /*******************footer**********************/
