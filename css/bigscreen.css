@@ -14,6 +14,10 @@ a{
 }
 
 /*******************nav*************************/
+.fa-solid{
+    display: none;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -22,7 +26,7 @@ nav{
     position: relative;
     background-color: beige;
     padding-left: 6%;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
 }
 #navItem{
     width: 50%;
@@ -60,7 +64,7 @@ nav{
 
  .donation{
     width: auto;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
  }
  .heading{
     width: auto;
@@ -71,7 +75,8 @@ nav{
     background-color: aliceblue;
     font-size: 2rem;
     margin-top: 10%;
-    width: 100%;
+    margin-left: 10%;
+    width: 80%;
     height: 5rem;
     border-radius: 8px;
     font-weight: bold;
@@ -90,6 +95,9 @@ nav{
 
 
 /*******************Features********************/
+.smallscreenheading{
+    display: none;
+}
 #feature{
     display: flex;
     background-color: beige;
@@ -98,6 +106,17 @@ nav{
     position: relative;
     justify-content: center;
 }
+
+.featureoverall{
+    padding: 50px 0; text-align: center; width:100%; max-width: 1200px;height: 100%;
+}
+.feature01{
+    padding: 70px 0 20px; display: flex; justify-content: space-around;
+}
+.feature02{
+    padding: 20px 0 70px; display: flex; justify-content: space-around;
+}
+
 .featureH1{
     font-size: 50px;
 }
@@ -119,7 +138,6 @@ nav{
 }
 
 .features-temp:hover{
-    transition: 500ms ease;
     color: black;
     display: block;
     width: 45%;
@@ -152,10 +170,35 @@ nav{
 .donationdivision{
     height: auto;
     color: white;
-    padding-top: 20vw;
+    padding-top: 12vw;
+    padding-bottom: 2vw;
     padding-left: 10vw;
 }
+.donhead{
+    font-size: 7vh;
+}
+.donpara{
+    font-size: 2vh;
+}
+.donbutton{
+    margin-top: 2%;
+    width: 11vw;
+    height: 40px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgb(255, 255, 125);
+    transition: 500ms ease;
+}
+.donbutton:hover{
+    cursor: pointer;
+    background-color: yellow;
+    transition: 500ms ease;
+}
 
+.donationimagealt{
+    display: none;
+}
 
 /*******************donation********************/
 
